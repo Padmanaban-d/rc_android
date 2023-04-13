@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 import SignUp from './src/component/user/signup/SignUp';
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import Login from './src/component/user/signin/Login';
+import Login from './src/component/user/signin/LoginScreen';
 const HelloWorld = () => {
   const Stack = createStackNavigator();
   return (
